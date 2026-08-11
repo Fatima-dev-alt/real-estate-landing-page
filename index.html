@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Landing Page</title>
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-house"></i>
+                Estate<span>Hub</span>
+            </a>
+
+            <nav class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <a href="#contact" class="nav-btn">Get Started</a>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+
+            <div class="hero-text">
+                <p class="eyebrow">YOUR TRUSTED REAL ESTATE PARTNER</p>
+
+                <h1>Find a Place You'll <span>Love to Call Home.</span></h1>
+
+                <p>
+                    Discover beautiful properties in the best locations.
+                    We make buying, selling and managing property simple.
+                </p>
+
+                <!-- Property Search -->
+                <div class="search-box">
+
+                    <div class="search-item">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <div>
+                            <small>Location</small>
+                            <strong>Choose Location</strong>
+                        </div>
+                    </div>
+
+                    <div class="search-item">
+                        <i class="fa-solid fa-building"></i>
+                        <div>
+                            <small>Property Type</small>
+                            <strong>All Properties</strong>
+                        </div>
+                    </div>
+
+                    <button class="search-btn">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Search
+                    </button>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Featured Properties -->
+    <section class="section" id="properties">
+        <div class="container">
+
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">EXPLORE OUR PROPERTIES</p>
+                    <h2>Featured Properties</h2>
+                </div>
+
+                <a href="#" class="outline-btn">View All Properties</a>
+            </div>
+
+            <div class="property-grid">
+
+                <!-- Property 1 -->
+                <article class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" alt="Modern family house">
+                        <span class="property-tag">For Sale</span>
+                    </div>
+
+                    <div class="property-info">
+                        <h3>Modern Family House</h3>
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Lahore, Pakistan
+                        </p>
+
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 4 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 3 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 2,400 sq ft</span>
+                        </div>
+
+                        <div class="property-bottom">
+                            <strong>PKR 4.5 Crore</strong>
+                            <a href="#">View Details</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Property 2 -->
+                <article class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=900&q=80" alt="Luxury villa">
+                        <span class="property-tag">For Sale</span>
+                    </div>
+
+                    <div class="property-info">
+                        <h3>Luxury Garden Villa</h3>
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Islamabad, Pakistan
+                        </p>
+
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 5 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 4 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 3,200 sq ft</span>
+                        </div>
+
+                        <div class="property-bottom">
+                            <strong>PKR 7.8 Crore</strong>
+                            <a href="#">View Details</a>
+                        </div>
+                    </div>
+                </article>
+
+
+                <!-- Property 3 -->
+                <article class="property-card">
+                    <div class="property-image">
+                        <img src="https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?auto=format&fit=crop&w=900&q=80" alt="Modern apartment">
+                        <span class="property-tag">For Rent</span>
+                    </div>
+
+                    <div class="property-info">
+                        <h3>Modern City Apartment</h3>
+                        <p class="location">
+                            <i class="fa-solid fa-location-dot"></i>
+                            Karachi, Pakistan
+                        </p>
+
+                        <div class="property-details">
+                            <span><i class="fa-solid fa-bed"></i> 3 Beds</span>
+                            <span><i class="fa-solid fa-bath"></i> 2 Baths</span>
+                            <span><i class="fa-solid fa-ruler-combined"></i> 1,650 sq ft</span>
+                        </div>
+
+                        <div class="property-bottom">
+                            <strong>PKR 1.8 Lac/mo</strong>
+                            <a href="#">View Details</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- About Us -->
+    <section class="about section" id="about">
+        <div class="container about-grid">
+
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=900&q=80" alt="Real estate consultation">
+                <div class="experience-box">
+                    <strong>10+</strong>
+                    <span>Years Experience</span>
+                </div>
+            </div>
+
+            <div class="about-text">
+                <p class="eyebrow">ABOUT ESTATEHUB</p>
+                <h2>Helping You Find More Than Just a Property.</h2>
+
+                <p>
+                    EstateHub is a modern real estate company focused on
+                    helping clients discover quality properties and make
+                    confident property decisions.
+                </p>
+
+                <p>
+                    With experienced professionals and a customer-first
+                    approach, we provide reliable services for buyers,
+                    sellers and property owners.
+                </p>
+
+                <div class="achievements">
+                    <div>
+                        <strong>500+</strong>
+                        <span>Properties</span>
+                    </div>
+
+                    <div>
+                        <strong>350+</strong>
+                        <span>Happy Clients</span>
+                    </div>
+
+                    <div>
+                        <strong>25+</strong>
+                        <span>Professional Agents</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Services -->
+    <section class="section" id="services">
+        <div class="container">
+
+            <div class="center-heading">
+                <p class="eyebrow">WHAT WE OFFER</p>
+                <h2>Our Professional Services</h2>
+                <p>
+                    From finding your dream property to managing your investment,
+                    our team is here to help.
+                </p>
+            </div>
+
+            <div class="services-grid">
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-house-circle-check"></i>
+                    </div>
+                    <h3>Property Buying</h3>
+                    <p>Find the right property that matches your needs and budget.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-hand-holding-dollar"></i>
+                    </div>
+                    <h3>Property Selling</h3>
+                    <p>Sell your property with professional marketing and support.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-building-circle-check"></i>
+                    </div>
+                    <h3>Property Management</h3>
+                    <p>Keep your property well-managed with reliable assistance.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="icon-box">
+                        <i class="fa-solid fa-comments"></i>
+                    </div>
+                    <h3>Real Estate Consultation</h3>
+                    <p>Get professional guidance for your real estate decisions.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Property Categories -->
+    <section class="categories section">
+        <div class="container">
+
+            <div class="center-heading">
+                <p class="eyebrow">EXPLORE BY TYPE</p>
+                <h2>Property Categories</h2>
+            </div>
+
+            <div class="category-grid">
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=700&q=80" alt="Apartments">
+                    <div>
+                        <h3>Apartments</h3>
+                        <p>120+ Properties</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?auto=format&fit=crop&w=700&q=80" alt="Houses">
+                    <div>
+                        <h3>Houses</h3>
+                        <p>180+ Properties</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=700&q=80" alt="Villas">
+                    <div>
+                        <h3>Villas</h3>
+                        <p>75+ Properties</p>
+                    </div>
+                </div>
+
+                <div class="category-card">
+                    <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=700&q=80" alt="Commercial properties">
+                    <div>
+                        <h3>Commercial</h3>
+                        <p>90+ Properties</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Why Choose Us -->
+    <section class="why-us section">
+        <div class="container">
+
+            <div class="center-heading">
+                <p class="eyebrow">WHY ESTATEHUB</p>
+                <h2>Why Choose Us?</h2>
+            </div>
+
+            <div class="benefits-grid">
+
+                <div class="benefit">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <h3>Trusted Services</h3>
+                    <p>Reliable real estate services built around your needs.</p>
+                </div>
+
+                <div class="benefit">
+                    <i class="fa-solid fa-user-tie"></i>
+                    <h3>Professional Agents</h3>
+                    <p>Experienced agents ready to guide you at every step.</p>
+                </div>
+
+                <div class="benefit">
+                    <i class="fa-solid fa-gem"></i>
+                    <h3>Quality Properties</h3>
+                    <p>Carefully selected properties in desirable locations.</p>
+                </div>
+
+                <div class="benefit">
+                    <i class="fa-solid fa-headset"></i>
+                    <h3>Customer Support</h3>
+                    <p>Friendly support whenever you need assistance.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Testimonials -->
+    <section class="section testimonials">
+        <div class="container">
+
+            <div class="center-heading">
+                <p class="eyebrow">CLIENT STORIES</p>
+                <h2>What Our Clients Say</h2>
+            </div>
+
+            <div class="testimonial-grid">
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        "The team made the entire property buying process
+                        simple and stress-free. Their guidance was excellent."
+                    </p>
+
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+                        <div>
+                            <strong>Sarah Ahmed</strong>
+                            <span>Home Buyer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        "Professional, responsive and honest. I would
+                        definitely recommend their services."
+                    </p>
+
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                        <div>
+                            <strong>Hamza Khan</strong>
+                            <span>Property Investor</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        "They helped me find a property that perfectly
+                        matched what I was looking for."
+                    </p>
+
+                    <div class="client">
+                        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Client">
+                        <div>
+                            <strong>Ayesha Malik</strong>
+                            <span>Home Owner</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact -->
+    <section class="contact section" id="contact">
+        <div class="container contact-grid">
+
+            <div class="contact-info">
+                <p class="eyebrow">GET IN TOUCH</p>
+                <h2>Let's Find Your Perfect Property.</h2>
+
+                <p>
+                    Have a question or looking for your next property?
+                    Send us a message and our team will get back to you.
+                </p>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-phone"></i>
+                    <div>
+                        <strong>Phone</strong>
+                        <span>+92 300 1234567</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-envelope"></i>
+                    <div>
+                        <strong>Email</strong>
+                        <span>hello@estatehub.com</span>
+                    </div>
+                </div>
+
+                <div class="contact-item">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <div>
+                        <strong>Address</strong>
+                        <span>Gulberg, Lahore, Pakistan</span>
+                    </div>
+                </div>
+            </div>
+
+
+            <form class="contact-form">
+
+                <div class="form-row">
+                    <input type="text" placeholder="Your Name">
+                    <input type="email" placeholder="Your Email">
+                </div>
+
+                <input type="text" placeholder="Subject">
+
+                <textarea rows="6" placeholder="Your Message"></textarea>
+
+                <button type="submit" class="primary-btn">
+                    Send Message
+                    <i class="fa-solid fa-arrow-right"></i>
+                </button>
+
+            </form>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+
+            <div class="footer-about">
+                <a href="#" class="logo">
+                    <i class="fa-solid fa-house"></i>
+                    Estate<span>Hub</span>
+                </a>
+
+                <p>
+                    Making real estate simple, transparent and accessible
+                    for everyone.
+                </p>
+            </div>
+
+            <div>
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#properties">Properties</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div>
+                <h3>Follow Us</h3>
+
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+
+                    <a href="#" aria-label="Instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" aria-label="LinkedIn">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </a>
+
+                    <a href="#" aria-label="Twitter">
+                        <i class="fa-brands fa-x-twitter"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            <p>© 2026 EstateHub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
