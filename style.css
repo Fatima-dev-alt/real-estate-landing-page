@@ -738,4 +738,211 @@ textarea {
 
 .footer-grid > div:nth-child(2) a {
     display: block;
-    color: #b9
+    color: #b9c5c0;
+}
+/* ================= RESPONSIVE DESIGN ================= */
+
+@media (max-width: 900px) {
+
+    .container {
+        width: 92%;
+    }
+
+    .nav-content {
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+
+    .nav-links {
+        gap: 18px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .property-grid,
+    .testimonial-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .services-grid,
+    .category-grid,
+    .benefits-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-grid,
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .experience-box {
+        right: 15px;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr 1fr;
+        gap: 35px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 100%;
+    }
+
+    .nav-content {
+        min-height: auto;
+        padding: 15px 0;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .nav-links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px 15px;
+    }
+
+    .nav-links a {
+        font-size: 13px;
+    }
+
+    .nav-btn {
+        width: 100%;
+        text-align: center;
+    }
+
+    .hero {
+        min-height: auto;
+    }
+
+    .hero-content {
+        padding: 60px 0;
+    }
+
+    .hero h1 {
+        font-size: 38px;
+        letter-spacing: -1px;
+    }
+
+    .hero-text > p:not(.eyebrow) {
+        font-size: 15px;
+    }
+
+    .search-box {
+        width: 100%;
+        max-width: 100%;
+        flex-direction: column;
+        align-items: stretch;
+        padding: 12px;
+    }
+
+    .search-item {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #eeeeee;
+    }
+
+    .search-btn {
+        width: 100%;
+    }
+
+    .section {
+        padding: 60px 0;
+    }
+
+    .section-heading {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    .section-heading h2,
+    .center-heading h2,
+    .about-text h2,
+    .contact-info h2 {
+        font-size: 32px;
+    }
+
+    .property-grid,
+    .services-grid,
+    .category-grid,
+    .benefits-grid,
+    .testimonial-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .property-image {
+        height: 220px;
+    }
+
+    .property-bottom {
+        flex-wrap: wrap;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .about-image img {
+        height: 350px;
+    }
+
+    .experience-box {
+        position: relative;
+        right: auto;
+        bottom: auto;
+        margin: -30px 15px 0;
+        z-index: 2;
+    }
+
+    .achievements {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .category-card {
+        height: 250px;
+    }
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+        gap: 35px;
+    }
+
+    .contact-form {
+        padding: 20px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+        width: 100%;
+    }
+
+    .footer-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    img,
+    input,
+    textarea,
+    button {
+        max-width: 100%;
+    }
+}
